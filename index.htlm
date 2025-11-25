@@ -1,0 +1,98 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinanciaNexus - Próximamente</title>
+    <style>
+        / Estilos CSS (puedes colocarlos aquí o en un archivo CSS separado) /
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; / Fuente profesional /
+            background-color: #f4f4f4; / Fondo claro y elegante /
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #fff; / Fondo blanco para el contenido /
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); / Sombra sutil /
+            text-align: center;
+            width: 80%; / Ancho adaptable /
+            max-width: 600px; / Ancho máximo para mayor legibilidad /
+        }
+
+        h1 {
+            color: #333; / Color oscuro para el título /
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #666; / Color gris para el texto descriptivo /
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            width: 150px; / Ajusta el tamaño según tu logo /
+            margin-bottom: 30px;
+        }
+
+        .under-construction {
+            color: #e74c3c; / Color rojo para "en construcción" /
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .contact-info {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #888;
+        }
+
+        / Estilos para dispositivos móviles /
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .logo {
+                width: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="logo.png" alt="FinanciaNexus Logo" class="logo">  <!-- Reemplaza "logo.png" con la URL de tu logo -->
+        <h1>Bienvenido a FinanciaNexus</h1>
+        <p>
+            Estamos construyendo una plataforma de análisis de información financiera de vanguardia.  Aquí encontrarás herramientas, datos y análisis para tomar decisiones financieras informadas y estratégicas.
+        </p>
+
+        <p class="under-construction">
+            ¡Sitio en Construcción!  Estaremos listos pronto.
+        </p>
+
+        <div class="contact-info">
+            <p>Para consultas, contáctanos en: <a href="mailto:info@financianexus.com">info@financianexus.com</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
+```
